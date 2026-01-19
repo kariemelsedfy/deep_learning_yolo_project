@@ -41,7 +41,6 @@ S = 7
 B = 1
 C = 1  # bus only
 
-# Paths (adjust to your project)
 DATA_ROOT = "bus_dataset"
 TRAIN_CSV = os.path.join(DATA_ROOT, "train.csv")
 VAL_CSV = os.path.join(DATA_ROOT, "val.csv")

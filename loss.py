@@ -5,7 +5,7 @@ Modified to support ONLY B = 1
 
 import torch
 import torch.nn as nn
-from utils import intersection_over_union  # (not used here, but keeping as-is)
+from utils import intersection_over_union  
 
 
 class YoloLoss(nn.Module):
